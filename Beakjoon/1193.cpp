@@ -1,44 +1,35 @@
 #include<iostream>
-#include<string>
 using namespace std;
 
 int main(void)
 {
-	int t;
-	int count = 0;
-	int* dp;
-	int idx;
-	string str;
+	int n;
+	int idx = 1;
+	int add = 1;
+	int x, y;
 
-	cin >> t;
+	cin >> n;
 
-	while (t > 0) {
-		cin >> str;
-		dp = new int[26]{ 0, };
-
-		for (int i = 0; i < str.size(); i++) {
-			idx = str[i] - 97;
-			if (dp[idx] == 0) {
-				dp[idx] = i + 1;
-			}
-			else {
-				if (dp[idx] == i) {
-					dp[idx] = i + 1;
-				}
-				else {
-					idx = -1;
-					break;
-				}
-			}
+	while (true) {
+		if (n < add) {
+			idx--;
+			add -= idx;
+			break;
 		}
-
-		if (idx != -1) {
-			count++;
+		else {
+			add = add + idx;
+			idx++;
 		}
-
-		t--;
+	}
+	if (idx % 2 == 0) {
+		y = idx - (n - add);
+		x = 1 + n - add;
+	}
+	else {
+		x = idx - (n - add);
+		y = 1 + n - add;
 	}
 
-	cout << count << endl;
+	cout << x << "/" << y << endl;
 	return 0;
 }

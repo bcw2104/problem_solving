@@ -43,9 +43,9 @@ int main() {
 	}
 
 
-	if (min == n + 1) {
+	if (min == n + 1)
 		min = 0;
-	}
+
 
 	cout << min << "\n";
 

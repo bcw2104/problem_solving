@@ -1,5 +1,5 @@
 #  :page_facing_up: Problem Solving
-<img alt="C++" src="https://img.shields.io/badge/C++-00599C.svg?style=for-the-badge&logo=cplusplus&logoColor=white">
+<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/></a>
 
   ### Baekjoon & Programmers
     문제해결능력 향상을 위한 문제풀이입니다.

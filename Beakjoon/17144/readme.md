@@ -1,7 +1,7 @@
 # 📄 미세먼지 안녕!
 
 ## 출처
-https://www.acmicpc.net/problem/17070
+https://www.acmicpc.net/problem/17144
 
 ## 조건
 |시간 제한|	메모리 제한|

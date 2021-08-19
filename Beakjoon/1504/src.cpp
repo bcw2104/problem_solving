@@ -71,7 +71,6 @@ int main() {
                     continue;
 
                 if (v == e) {
-                    total_dist += d;
                     break;
                 }
                 visit[v] = 1;
@@ -80,14 +79,16 @@ int main() {
                     int to = vlist[v].edges[k].first;
                     int tow = vlist[v].edges[k].second;
                     if (visit[to] == 0) {
-                        pq.push({ to,min(d+tow,dist[to]) });
+                        dist[to] = min(d + tow, dist[to]);
+                        pq.push({ to,dist[to] });
                     }
                 }
             }
+            total_dist += dist[e];
             s = e;
         }
 
-        if (total_dist > 0 && ans > total_dist)
+        if ( ans > total_dist)
             ans = total_dist;
     }
    
@@ -98,3 +99,4 @@ int main() {
 
     return 0;
 }
+

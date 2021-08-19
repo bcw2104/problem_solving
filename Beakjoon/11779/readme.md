@@ -1,7 +1,7 @@
 # 📄 최소비용 구하기 2
 
 ## 출처
-https://www.acmicpc.net/problem/1504
+https://www.acmicpc.net/problem/11779
 
 ## 조건
 |시간 제한|	메모리 제한|

@@ -1,7 +1,7 @@
 # 📄 문자열 폭발 
 
 ## 출처
-https://www.acmicpc.net/problem/2096
+https://www.acmicpc.net/problem/9935
 
 ## 조건
 |시간 제한|	메모리 제한|

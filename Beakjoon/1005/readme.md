@@ -1,4 +1,4 @@
-# 📄 치즈 
+# 📄 ACM Craft 
 
 ## 출처
 https://www.acmicpc.net/problem/1005

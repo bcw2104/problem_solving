@@ -1,7 +1,7 @@
 # 📄 최종 순위
 
 ## 출처
-https://www.acmicpc.net/problem/14289
+https://www.acmicpc.net/problem/3665
 
 ## 조건
 |시간 제한|	메모리 제한|
